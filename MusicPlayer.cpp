@@ -70,7 +70,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 	switch (iMsg)
 	{
 	case WM_LBUTTONDOWN:
-		PlaySound("C:\\Users\\karan\\Downloads\\strange.wav", NULL, SND_LOOP | SND_ASYNC);
+		PlaySound("C:\\<path>\\<to>\\<music>\\<file>.wav", NULL, SND_LOOP | SND_ASYNC);
 		break;
 	case WM_RBUTTONDOWN:
 		PlaySound(NULL, NULL, 0);
